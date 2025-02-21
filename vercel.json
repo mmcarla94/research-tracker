@@ -7,11 +7,8 @@
     { "src": "/.*", "dest": "/index.html" }
   ],
   "env": {
-    "ORCID_CLIENT_ID": "your_orcid_client_id",
-    "ORCID_CLIENT_SECRET": "your_orcid_client_secret",
+    "ORCID_CLIENT_ID": "mm.carla94@gmail.com",
+    "ORCID_CLIENT_SECRET": "M@tt3094",
     "ORCID_REDIRECT_URI": "https://research-tracker.vercel.app/auth/callback"
   }
 }
-```
-
----
