@@ -1,0 +1,17 @@
+{
+  "builds": [
+    { "src": "package.json", "use": "@vercel/node" },
+    { "src": "src/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/.*", "dest": "/index.html" }
+  ],
+  "env": {
+    "ORCID_CLIENT_ID": "your_orcid_client_id",
+    "ORCID_CLIENT_SECRET": "your_orcid_client_secret",
+    "ORCID_REDIRECT_URI": "https://research-tracker.vercel.app/auth/callback"
+  }
+}
+```
+
+---
